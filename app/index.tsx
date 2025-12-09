@@ -1,4 +1,5 @@
-import { Text, View } from "react-native";
+import { View, ScrollView } from "react-native";
+import Header from "./components/Header";
 
 export default function Index() {
   return (
@@ -9,7 +10,9 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <ScrollView>
+        <Header/>
+      </ScrollView>
     </View>
   );
 }

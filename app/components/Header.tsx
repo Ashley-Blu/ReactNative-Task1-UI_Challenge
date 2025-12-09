@@ -14,7 +14,8 @@ export default function Header() {
         </TouchableOpacity>
 
         <TouchableOpacity>
-          <Text style={styles.actionText}>⋮</Text>
+          <Image source={require("../../assets/icons/dots.png")}
+          style={styles.icon}/>
         </TouchableOpacity>
       </View>
     </View>
@@ -32,6 +33,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 22,
     fontWeight: "bold",
+    color: 'orange'
   },
   actions: {
     flexDirection: "row",
@@ -44,5 +46,6 @@ const styles = StyleSheet.create({
   actionText: {
     fontSize: 24,
     marginTop: -2,
+    fontWeight: 'bold'
   },
 });

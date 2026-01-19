@@ -1,18 +1,7 @@
-import { View, ScrollView } from "react-native";
-import Header from "./components/Header";
+import React from 'react';
+import ChatScreen from './screens/ChatScreen';
+
 
 export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <ScrollView>
-        <Header/>
-      </ScrollView>
-    </View>
-  );
+return <ChatScreen />;
 }

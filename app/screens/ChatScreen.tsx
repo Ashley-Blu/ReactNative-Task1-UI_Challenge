@@ -1,10 +1,10 @@
-import React from 'react';
-import { FlatList, StyleSheet, View, SafeAreaView } from 'react-native';
-import Header from '../components/Header';
-import TabBar from '../components/ChatTabs';
-import ChatListItem from '../components/ChatListItem';
-import FloatingButton from '../components/FloatingButton';
-import { CHATS } from '../data/chats';
+import React from "react";
+import { FlatList, SafeAreaView, StyleSheet, View } from "react-native";
+import ChatListItem from "../components/ChatListItem";
+import TabBar from "../components/ChatTabs";
+import FloatingButton from "../components/FloatingButton";
+import Header from "../components/Header";
+import { CHATS } from "../data/chats";
 
 export default function ChatScreen() {
   return (
@@ -18,6 +18,8 @@ export default function ChatScreen() {
         data={CHATS}
         keyExtractor={(i) => i.id}
         renderItem={({ item }) => <ChatListItem {...item} />}
+        scrollIndicatorInsets={{ right: 1 }}
+        showsVerticalScrollIndicator={false}
       />
 
       <FloatingButton />
@@ -26,6 +28,12 @@ export default function ChatScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#fff' },
-  tabWrap: { paddingHorizontal: 16, paddingTop: 8 },
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+  },
+  tabWrap: {
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+  },
 });

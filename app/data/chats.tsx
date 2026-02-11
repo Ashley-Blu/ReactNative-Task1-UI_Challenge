@@ -7,6 +7,7 @@ export const CHATS = [
     unread: 0,
     typing: true,
     avatar: require("../../assets/profiles/p2.jpg"),
+    seen: true,
   },
   {
     id: "2",
@@ -14,7 +15,8 @@ export const CHATS = [
     message: "Faza Can you help me to do with new project...",
     time: "14:30",
     unread: 2,
-    avatar: require("../../assets/profiles/p3.jpg"),
+    avatar: require("../../assets/profiles/group.webp"),
+    seen: false,
   },
   {
     id: "3",
@@ -23,6 +25,7 @@ export const CHATS = [
     time: "14:00",
     unread: 2,
     avatar: require("../../assets/profiles/p4.jpg"),
+    seen: false,
   },
   {
     id: "4",
@@ -31,6 +34,7 @@ export const CHATS = [
     time: "13:40",
     unread: 0,
     avatar: require("../../assets/profiles/p5.png"),
+    seen: true,
   },
   {
     id: "5",
@@ -39,6 +43,7 @@ export const CHATS = [
     time: "Yesterday",
     unread: 0,
     avatar: require("../../assets/profiles/p6.jpg"),
+    seen: true,
   },
   {
     id: "6",
@@ -47,5 +52,24 @@ export const CHATS = [
     time: "29/08/22",
     unread: 0,
     avatar: require("../../assets/profiles/p7.png"),
+    seen: true,
+  },
+  {
+    id: "7",
+    name: "Abdull",
+    message: "Perfecto!🔥I will check it later ",
+    time: "29/08/22",
+    unread: 0,
+    avatar: require("../../assets/profiles/p8.jpg"),
+    seen: true,
+  },
+  {
+    id: "8",
+    name: "Ibe hatypo",
+    message: "Perfecto!🔥I will check it later ",
+    time: "29/08/22",
+    unread: 0,
+    avatar: require("../../assets/profiles/p9.jpg"),
+    seen: true,
   },
 ];

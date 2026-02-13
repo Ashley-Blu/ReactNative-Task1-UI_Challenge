@@ -7,7 +7,7 @@ export const CHATS = [
     unread: 0,
     typing: true,
     avatar: require("../../assets/profiles/p2.jpg"),
-    seen: true,
+    seen: false,
   },
   {
     id: "2",
@@ -30,16 +30,16 @@ export const CHATS = [
   {
     id: "4",
     name: "Vito Arvy",
-    message: "Okay adhit, I'll tell faza about it ",
+    message: "Okay adhit, I'll tell faza about it👍",
     time: "13:40",
     unread: 0,
     avatar: require("../../assets/profiles/p5.png"),
-    seen: true,
+    seen: false,
   },
   {
     id: "5",
     name: "Raul",
-    message: "Thanks Raul!",
+    message: "Thanks Raul!🙏✨",
     time: "Yesterday",
     unread: 0,
     avatar: require("../../assets/profiles/p6.jpg"),
@@ -48,7 +48,7 @@ export const CHATS = [
   {
     id: "6",
     name: "Farhan Bagas",
-    message: "Great work farhan!  I'll tell faza about logo...",
+    message: "Great work farhan! 👍 I'll tell faza about logo...",
     time: "29/08/22",
     unread: 0,
     avatar: require("../../assets/profiles/p7.png"),
@@ -66,7 +66,7 @@ export const CHATS = [
   {
     id: "8",
     name: "Ibe hatypo",
-    message: "Perfecto!🔥I will check it later ",
+    message: "Nicely done bro!👍 ",
     time: "29/08/22",
     unread: 0,
     avatar: require("../../assets/profiles/p9.jpg"),

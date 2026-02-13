@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     position: "relative",
     overflow: "hidden",
     backgroundColor: "#F3F4F6",
-    borderWidth: 2,
+    borderWidth: 1,
     borderColor: "#FFF5F1",
   },
   image: {

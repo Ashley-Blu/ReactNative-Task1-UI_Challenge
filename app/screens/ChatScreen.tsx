@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
   tabWrap: {
-    paddingHorizontal: 16,
+    paddingHorizontal: 10,
     paddingVertical: 12,
   },
 });

@@ -4,7 +4,7 @@ import ChatListItem from "../components/ChatListItem";
 import TabBar from "../components/ChatTabs";
 import FloatingButton from "../components/FloatingButton";
 import Header from "../components/Header";
-import { CHATS } from "../data/chats";
+import { CHATS } from "../../data/chats";
 
 export default function ChatScreen() {
   return (

@@ -5,11 +5,12 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "platforms": ["ios", "android", "web"],
     "scheme": "reactnativetask1uichallenge",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,

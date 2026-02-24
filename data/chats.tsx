@@ -6,7 +6,7 @@ export const CHATS = [
     time: "14:30",
     unread: 0,
     typing: true,
-    avatar: require("../../assets/profiles/p2.jpg"),
+    avatar: require("../assets/profiles/p2.jpg"),
     seen: false,
   },
   {
@@ -15,7 +15,7 @@ export const CHATS = [
     message: "Faza Can you help me to do with new project...",
     time: "14:30",
     unread: 2,
-    avatar: require("../../assets/profiles/group.webp"),
+    avatar: require("../assets/profiles/group.webp"),
     seen: false,
   },
   {
@@ -24,7 +24,7 @@ export const CHATS = [
     message: "I think we should upgrade the social media...",
     time: "14:00",
     unread: 2,
-    avatar: require("../../assets/profiles/p4.jpg"),
+    avatar: require("../assets/profiles/p4.jpg"),
     seen: false,
   },
   {
@@ -33,7 +33,7 @@ export const CHATS = [
     message: "Okay adhit, I'll tell faza about it👍",
     time: "13:40",
     unread: 0,
-    avatar: require("../../assets/profiles/p5.png"),
+    avatar: require("../assets/profiles/p5.png"),
     seen: false,
   },
   {
@@ -42,7 +42,7 @@ export const CHATS = [
     message: "Thanks Raul!🙏✨",
     time: "Yesterday",
     unread: 0,
-    avatar: require("../../assets/profiles/p6.jpg"),
+    avatar: require("../assets/profiles/p6.jpg"),
     seen: true,
   },
   {
@@ -51,7 +51,7 @@ export const CHATS = [
     message: "Great work farhan! 👍 I'll tell faza about logo...",
     time: "29/08/22",
     unread: 0,
-    avatar: require("../../assets/profiles/p7.png"),
+    avatar: require("../assets/profiles/p7.png"),
     seen: true,
   },
   {
@@ -60,7 +60,7 @@ export const CHATS = [
     message: "Perfecto!🔥I will check it later ",
     time: "29/08/22",
     unread: 0,
-    avatar: require("../../assets/profiles/p8.jpg"),
+    avatar: require("../assets/profiles/p8.jpg"),
     seen: true,
   },
   {
@@ -69,7 +69,7 @@ export const CHATS = [
     message: "Nicely done bro!👍 ",
     time: "29/08/22",
     unread: 0,
-    avatar: require("../../assets/profiles/p9.jpg"),
+    avatar: require("../assets/profiles/p9.jpg"),
     seen: true,
   },
 ];

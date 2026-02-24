@@ -8,14 +8,14 @@ export default function Header() {
       <View style={styles.actions}>
         <TouchableOpacity activeOpacity={0.7} style={styles.iconButton}>
           <Image
-            source={require("../../assets/icons/search.png")}
+            source={require("../assets/icons/search.png")}
             style={styles.icon}
           />
         </TouchableOpacity>
 
         <TouchableOpacity activeOpacity={0.7} style={styles.iconButton}>
           <Image
-            source={require("../../assets/icons/dots.png")}
+            source={require("../assets/icons/dots.png")}
             style={styles.icon}
           />
         </TouchableOpacity>

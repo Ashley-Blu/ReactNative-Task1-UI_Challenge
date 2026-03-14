@@ -12,7 +12,7 @@ export const CHATS = [
   {
     id: "2",
     name: "Hatypo Studio",
-    message: "Faza Can you help me to do with new project...",
+    message: "Faza: Can you help me to do with new project...",
     time: "14:30",
     unread: 2,
     avatar: require("../assets/profiles/group.webp"),
